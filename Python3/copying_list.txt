@@ -1,0 +1,23 @@
+>>> list = ['a', 'bb', 'ccc']
+>>> list_copy = list
+>>> list.append('dddd')
+>>> print(list)
+['a', 'bb', 'ccc', 'dddd']
+>>> print(list_copy)
+['a', 'bb', 'ccc', 'dddd']
+>>> 
+>>> 
+>>> list.remove('dddd')
+>>> print(list)
+['a', 'bb', 'ccc']
+>>> print(list_copy)
+['a', 'bb', 'ccc']
+>>> 
+>>> 
+>>> list_copy = list.copy()
+>>> list.append('dddd')
+>>> print(list)
+['a', 'bb', 'ccc', 'dddd']
+>>> print(list_copy)
+['a', 'bb', 'ccc']
+>>> 
